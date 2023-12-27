@@ -1,0 +1,33 @@
+/* ==================== conversation ==================== */
+
+.conversation {
+  background-color: $primary-main-color;
+}
+
+.chatHeader,
+.chatFooter {
+  background-color: $paper-background;
+  box-shadow: $main-box-shadow;
+}
+
+.chatFooter__Send-btn {
+  background-color: $main-primary;
+}
+
+.conversation {
+  .message {
+    .incomingMsg {
+      background-color: $main-primary;
+      color: $main-white-color;
+
+      .primary-main-color {
+        background-color: $paper-color;
+      }
+    }
+
+    .outgoingMsg {
+      background-color: $paper-color;
+      color: $text-gray;
+    }
+  }
+}

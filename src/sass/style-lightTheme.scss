@@ -1,0 +1,12 @@
+/// this file to switch between dark and light themes Easily
+
+
+// variable for light theme 
+@import './abstracts/Variable-light';
+// abstracts
+@import './abstracts/mixins';
+// main file 
+.light {
+  @extend %body;
+  @import './main';
+}

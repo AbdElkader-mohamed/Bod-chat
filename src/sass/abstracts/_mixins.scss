@@ -1,0 +1,13 @@
+// to centred element inside another element
+@mixin center($size) {
+  width: $size;
+  height: $size;
+  line-height: $size;
+  text-align: center;
+}
+
+%body {
+  font-family: 'Manrope', sans-serif;
+  background-color: $default-color;
+  display: flex;
+}

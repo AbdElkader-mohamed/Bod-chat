@@ -1,0 +1,55 @@
+button {
+  border: 0 ;
+  outline: 0 ;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.form-control {
+  box-shadow: none;
+  border: 0;
+}
+
+input,
+::placeholder {
+  color: $primary-text ;
+}
+
+hr {
+  border-width: 1px;
+  background-color: rgba($primary-text, 0.55);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+h5 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1,h2,h3,h4,h5,h6,p:not(.message-description),span:not(.not *),svg:not(svg.not) {
+  color: $primary-text;
+} 
+
+
+/*========================== customization for all mui  ==========================*/ 
+.css-1goxtxt-MuiInputBase-root-MuiFilledInput-root{
+  &:before{
+    border-color: $secondary-text !important;
+  }
+}
